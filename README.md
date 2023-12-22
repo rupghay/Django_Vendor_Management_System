@@ -1,0 +1,1 @@
+# Django_Vendor_Management_System
