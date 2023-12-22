@@ -34,17 +34,12 @@ URL: api/vendors/
 Method: GET (List Vendors), POST (Create Vendor)
 Authentication: Token Authentication required
 
-2. Retrieve/Update Vendor:
+2. Retrieve/Update/Delete Vendor:
 
 URL: api/vendors/<int:pk>/
-Method: GET (Retrieve Vendor), PUT (Update Vendor)
+Method: GET (Retrieve Vendor), PUT (Update Vendor), DELETE
 Authentication: Token Authentication required
 
-3. Delete Vendor:
-
-URL: api/vendors/delete/<int:pk>/
-Method: DELETE
-Authentication: Token Authentication required
 
 PURCHASE ORDERS:
 
@@ -54,17 +49,12 @@ URL: api/purchase-orders/
 Method: GET (List Purchase Orders), POST (Create Purchase Order)
 Authentication: Token Authentication required
 
-2. Retrieve/Update Purchase Order:
+2. Retrieve/Update/Delete Purchase Order:
 
 URL: api/purchase-orders/<int:pk>/
-Method: GET (Retrieve Purchase Order), PUT (Update Purchase Order)
+Method: GET (Retrieve Purchase Order), PUT (Update Purchase Order),DELETE
 Authentication: Token Authentication required
 
-3. Delete Purchase Order:
-
-URL: api/purchase-orders/delete/<int:pk>/
-Method: DELETE
-Authentication: Token Authentication required.
 
 --------------------------------------------
 
